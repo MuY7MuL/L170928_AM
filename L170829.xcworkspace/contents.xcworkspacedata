@@ -2,12 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:MySdk/MySdk.xcodeproj">
+      location = "group:MuMuSdk/MuMuSdk.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:One/One.xcodeproj">
+      location = "group:Two_L170928/Two_L170928.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:two/two.xcodeproj">
+      location = "group:One_L170928/One_L170928.xcodeproj">
    </FileRef>
 </Workspace>
