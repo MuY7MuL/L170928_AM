@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:MuMuSdk/MuMuSdk.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Two_L170928/Two_L170928.xcodeproj">
    </FileRef>
    <FileRef
