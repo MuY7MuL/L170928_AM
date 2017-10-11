@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LySDK.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+     NSLog(@"你好，我是Yan ===");
+    [LySDK sayLinyan];
+    
 }
 
 

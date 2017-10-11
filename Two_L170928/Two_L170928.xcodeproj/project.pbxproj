@@ -15,6 +15,7 @@
 		280570971F7CCA3C00793DD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 280570961F7CCA3C00793DD2 /* main.m */; };
 		280570A11F7CCA3C00793DD2 /* Two_L170928Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280570A01F7CCA3C00793DD2 /* Two_L170928Tests.m */; };
 		280570AC1F7CCA3C00793DD2 /* Two_L170928UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280570AB1F7CCA3C00793DD2 /* Two_L170928UITests.m */; };
+		2805714C1F8E23A800793DD2 /* libLySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2805714B1F8E23A800793DD2 /* libLySDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		280570A71F7CCA3C00793DD2 /* Two_L170928UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Two_L170928UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		280570AB1F7CCA3C00793DD2 /* Two_L170928UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Two_L170928UITests.m; sourceTree = "<group>"; };
 		280570AD1F7CCA3C00793DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280571481F8E23A800793DD2 /* LySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LySDK.h; sourceTree = "<group>"; };
+		2805714A1F8E23A800793DD2 /* MumuSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MumuSdk.h; sourceTree = "<group>"; };
+		2805714B1F8E23A800793DD2 /* libLySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLySDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2805714C1F8E23A800793DD2 /* libLySDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 		2805707B1F7CCA3C00793DD2 = {
 			isa = PBXGroup;
 			children = (
+				280571451F8E23A800793DD2 /* Debugimulator */,
 				280570861F7CCA3C00793DD2 /* Two_L170928 */,
 				2805709F1F7CCA3C00793DD2 /* Two_L170928Tests */,
 				280570AA1F7CCA3C00793DD2 /* Two_L170928UITests */,
@@ -130,6 +136,41 @@
 				280570AD1F7CCA3C00793DD2 /* Info.plist */,
 			);
 			path = Two_L170928UITests;
+			sourceTree = "<group>";
+		};
+		280571451F8E23A800793DD2 /* Debugimulator */ = {
+			isa = PBXGroup;
+			children = (
+				280571461F8E23A800793DD2 /* include */,
+				2805714B1F8E23A800793DD2 /* libLySDK.a */,
+			);
+			name = Debugimulator;
+			path = ../Debugimulator;
+			sourceTree = "<group>";
+		};
+		280571461F8E23A800793DD2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				280571471F8E23A800793DD2 /* LySDK */,
+				280571491F8E23A800793DD2 /* MumuSdk */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		280571471F8E23A800793DD2 /* LySDK */ = {
+			isa = PBXGroup;
+			children = (
+				280571481F8E23A800793DD2 /* LySDK.h */,
+			);
+			path = LySDK;
+			sourceTree = "<group>";
+		};
+		280571491F8E23A800793DD2 /* MumuSdk */ = {
+			isa = PBXGroup;
+			children = (
+				2805714A1F8E23A800793DD2 /* MumuSdk.h */,
+			);
+			path = MumuSdk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
